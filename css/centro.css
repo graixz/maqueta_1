@@ -1,0 +1,180 @@
+body{
+    border: 1px solid;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 15rem;
+    margin: 5px;
+}
+
+.c1{
+    border: 1px solid;
+    border-radius: 20px 20px 0px 0px;
+    height: 60%;
+    background-color: rgb(65, 122, 65);
+    background-repeat: none;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ce{
+    font-size: 20px;
+}
+
+.ca{
+    font-size: 40px;
+}
+
+.imagenes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pr{
+    width: 200px;
+    height: 130px;
+}
+
+.c2{
+    border: 1px solid;
+    border-radius: 0px 0px 20px 20px;
+    height: 40%;
+    background-color: rgb(2, 32, 2);
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    list-style: none;
+    width: 100%;
+}
+li{
+    border-right: 1px solid white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.do{
+    border: none;
+}
+
+li:hover{
+    background-color: green;
+    transition: 2s;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+main{
+    margin: 5px;
+    height: 45rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 10px;
+}
+
+section{
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+article{
+    border: 1px;
+    border-radius: 20px 20px 0px 0px;
+    height: 100%;
+    background-color: rgba(235, 235, 16, 0.411);
+}
+
+h4{
+    font-size: 30px;
+}
+
+.caja{
+    height: 12rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.texto{
+    width: 100%;
+    font-size: 24px;
+}
+
+.dog{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perro{
+    border: 2px solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+}
+
+.ver{
+    color: black;
+    font-size: 20px;
+}
+
+.perro2{
+    border-radius: 0px 0px 20px 20px;
+    height: 100%;
+}
+
+.for{
+    border-radius: 20px;
+    width: 100%;
+    background-color: rgba(1, 78, 1, 0.527);
+}
+
+.soli{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px 12px 0px 0px;
+    background-color: darkgreen;
+    color: white;
+}
+
+.espacio{
+    height: 90.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer{
+    border: 1px solid;
+    border-radius: 0px 0px 20px 20px;
+    margin: 5px;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(2, 32, 2);
+}
